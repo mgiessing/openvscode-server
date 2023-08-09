@@ -45,6 +45,7 @@ const BUILD_TARGETS = [
 	{ platform: 'linux', arch: 'x64' },
 	{ platform: 'linux', arch: 'armhf' },
 	{ platform: 'linux', arch: 'arm64' },
+	{ platform: 'linux', arch: 'ppc64le' },
 	{ platform: 'alpine', arch: 'arm64' },
 	// legacy: we use to ship only one alpine so it was put in the arch, but now we ship
 	// multiple alpine images and moved to a better model (alpine as the platform)
